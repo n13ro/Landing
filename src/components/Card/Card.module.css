@@ -1,0 +1,6 @@
+.card {
+	@apply w-96;
+}
+.card_info {
+	@apply flex items-center justify-between mt-3 px-1 w-96;
+}

@@ -1,0 +1,20 @@
+.gallery {
+	@apply grid items-center justify-center p-20 w-full;
+}
+.gallery__categories {
+	@apply flex items-center gap-3 mb-10 justify-center;
+}
+.gallary__container {
+	@apply flex items-center justify-center;
+}
+.gallary__button {
+	@apply px-3 py-2 cursor-pointer transition-all;
+}
+
+.gallary__button:focus,
+.gallary__button:active {
+	@apply bg-black/75 rounded-full text-white transition-all ease-linear;
+}
+.galleri__cards {
+	@apply grid gap-16 grid-cols-3 items-center justify-center content-center;
+}

@@ -1,0 +1,26 @@
+.header {
+	@apply grid grid-flow-col items-center justify-items-center p-7 border-b border-gray-500/35;
+}
+.block {
+	@apply flex p-4 gap-5;
+}
+
+.links {
+	@apply text-gray-400 font-medium flex gap-6 border-l-2 pl-10 ml-6 items-center h-10;
+}
+.link {
+	@apply text-gray-400 font-medium transition-colors;
+}
+.link:hover {
+	@apply text-black/70 font-bold;
+}
+.link:focus,
+.link:active {
+	@apply text-black font-bold;
+}
+.h1 {
+	@apply flex font-semibold text-3xl items-center;
+}
+.block_btns {
+	@apply flex gap-4;
+}

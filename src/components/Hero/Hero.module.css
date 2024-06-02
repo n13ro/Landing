@@ -1,0 +1,30 @@
+.hero__conteiner {
+	@apply flex items-center gap-36 p-16;
+}
+
+.hero__content {
+	@apply w-144 h-auto mr-auto;
+}
+
+.hero__social {
+	@apply flex items-center gap-6 mb-6;
+}
+
+.hero__player {
+	@apply flex justify-center items-center w-144 h-144 border border-gray-500/35 rounded-full;
+}
+
+.preview__icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	background-color: white;
+}
+.play {
+	display: block;
+	width: 24px;
+	height: 24px;
+}

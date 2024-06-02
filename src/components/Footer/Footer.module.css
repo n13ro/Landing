@@ -1,0 +1,9 @@
+.footer {
+	@apply flex items-center justify-center font-light text-xs p-10 border-t border-gray-500/35;
+}
+.wrapper_content {
+	@apply block text-gray-400;
+}
+.list {
+	@apply flex gap-9 items-center justify-center font-bold list-none;
+}
